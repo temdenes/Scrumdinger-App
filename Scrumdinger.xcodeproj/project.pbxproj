@@ -85,6 +85,7 @@
 		E9144DDE2C0E324B00665283 = {
 			isa = PBXGroup;
 			children = (
+				E95C5E0B2C1875CD00BD901F /* Screenshots */,
 				E95C5E082C1874E400BD901F /* Readme.md */,
 				E9144DE92C0E324B00665283 /* Scrumdinger */,
 				E9144DE82C0E324B00665283 /* Products */,
@@ -151,6 +152,13 @@
 			);
 			name = Resources;
 			path = ../../../../Downloads/ManagingStateAndLifeCycle/Complete/Scrumdinger/Resources;
+			sourceTree = "<group>";
+		};
+		E95C5E0B2C1875CD00BD901F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		E99B0C582C10A31C00D50362 /* Models */ = {
