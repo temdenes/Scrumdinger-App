@@ -38,7 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E9144DE72C0E324B00665283 /* Scrundinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrundinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9144DE72C0E324B00665283 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9144DEA2C0E324B00665283 /* ScrundingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrundingerApp.swift; sourceTree = "<group>"; };
 		E9144DEC2C0E324B00665283 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		E9144DEE2C0E324C00665283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		E9144DE82C0E324B00665283 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9144DE72C0E324B00665283 /* Scrundinger.app */,
+				E9144DE72C0E324B00665283 /* Scrumdinger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9144DE62C0E324B00665283 /* Scrundinger */ = {
+		E9144DE62C0E324B00665283 /* Scrumdinger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9144DF52C0E324C00665283 /* Build configuration list for PBXNativeTarget "Scrundinger" */;
+			buildConfigurationList = E9144DF52C0E324C00665283 /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
 			buildPhases = (
 				E9144DE32C0E324B00665283 /* Sources */,
 				E9144DE42C0E324B00665283 /* Frameworks */,
@@ -179,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = Scrundinger;
+			name = Scrumdinger;
 			productName = Scrundinger;
-			productReference = E9144DE72C0E324B00665283 /* Scrundinger.app */;
+			productReference = E9144DE72C0E324B00665283 /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9144DE62C0E324B00665283 /* Scrundinger */,
+				E9144DE62C0E324B00665283 /* Scrumdinger */,
 			);
 		};
 /* End PBXProject section */
@@ -457,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9144DF52C0E324C00665283 /* Build configuration list for PBXNativeTarget "Scrundinger" */ = {
+		E9144DF52C0E324C00665283 /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9144DF62C0E324C00665283 /* Debug */,
