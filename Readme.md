@@ -1,4 +1,4 @@
-# Scrumdinger App by Apple App Dev Tutorials SwiftUi Dev Course
+# Scrumdinger App by Apple App Dev Tutorials SwiftUi Dev Course part
 
 ## Description
 This is a project from the Apple App Dev Tutorials SwiftUi Dev Course. This project is a Scrumdinger App that helps you manage your daily scrum meetings.
