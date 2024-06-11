@@ -33,6 +33,8 @@
 		E99B0C5A2C10A34600D50362 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B0C592C10A34600D50362 /* Theme.swift */; };
 		E99B0C5C2C10A46700D50362 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B0C5B2C10A46700D50362 /* DailyScrum.swift */; };
 		E99B0C5E2C10A4CE00D50362 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B0C5D2C10A4CE00D50362 /* CardView.swift */; };
+		E9B22CAA2C186A6600F83915 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B22CA92C186A6600F83915 /* HistoryView.swift */; };
+		E9B715AA2C18651800BCFC5B /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B715A92C18651800BCFC5B /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		E99B0C592C10A34600D50362 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E99B0C5B2C10A46700D50362 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		E99B0C5D2C10A4CE00D50362 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E9B22CA92C186A6600F83915 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		E9B715A92C18651800BCFC5B /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 				E91A1DCA2C1764C900CBF542 /* ErrorView.swift */,
 				E91A1DCC2C17AC2400CBF542 /* MeetingTimerView.swift */,
 				E91A1DCE2C17ADE700CBF542 /* SpeakerArc.swift */,
+				E9B22CA92C186A6600F83915 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				E91A1DC42C17429400CBF542 /* History.swift */,
 				E91A1DC62C17498F00CBF542 /* ScrumStore.swift */,
 				E91A1DC82C17646400CBF542 /* ErrorWrapper.swift */,
+				E9B715A92C18651800BCFC5B /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 				E91A1DCF2C17ADE700CBF542 /* SpeakerArc.swift in Sources */,
 				E91A1DCB2C1764C900CBF542 /* ErrorView.swift in Sources */,
 				E91A1DBA2C1715A600CBF542 /* ScrumTimer.swift in Sources */,
+				E9B22CAA2C186A6600F83915 /* HistoryView.swift in Sources */,
 				E91A1DCD2C17AC2400CBF542 /* MeetingTimerView.swift in Sources */,
 				E99B0C5C2C10A46700D50362 /* DailyScrum.swift in Sources */,
 				E91A1DC72C17498F00CBF542 /* ScrumStore.swift in Sources */,
@@ -246,6 +253,7 @@
 				E91A1DA72C16E5C300CBF542 /* TrailingIconLabelStyle.swift in Sources */,
 				E91A1DBC2C172A3D00CBF542 /* MeetingFooterView.swift in Sources */,
 				E99B0C5A2C10A34600D50362 /* Theme.swift in Sources */,
+				E9B715AA2C18651800BCFC5B /* SpeechRecognizer.swift in Sources */,
 				E91A1DA92C16E84500CBF542 /* ScrumsView.swift in Sources */,
 				E9144DED2C0E324B00665283 /* MeetingView.swift in Sources */,
 				E9144DEB2C0E324B00665283 /* ScrundingerApp.swift in Sources */,
@@ -387,6 +395,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Scrundinger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -397,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.temdenes.Scrundinger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temdenes.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -415,6 +425,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Scrundinger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -425,7 +437,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.temdenes.Scrundinger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temdenes.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
